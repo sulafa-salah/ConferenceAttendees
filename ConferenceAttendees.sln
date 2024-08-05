@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceAttendees.API", "ConferenceAttendees.API\ConferenceAttendees.API.csproj", "{804FC47A-67D8-492C-8124-25EB27C5D2F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConferenceAttendees.API", "ConferenceAttendees.API\ConferenceAttendees.API.csproj", "{804FC47A-67D8-492C-8124-25EB27C5D2F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConferenceAttendees.Web", "ConferenceAttendees.Web\ConferenceAttendees.Web.csproj", "{123054E0-78B5-4F1D-9405-6E4379281C82}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1BF59CCA-2DC4-465B-911C-D30B096DEBCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{804FC47A-67D8-492C-8124-25EB27C5D2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{804FC47A-67D8-492C-8124-25EB27C5D2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{804FC47A-67D8-492C-8124-25EB27C5D2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123054E0-78B5-4F1D-9405-6E4379281C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123054E0-78B5-4F1D-9405-6E4379281C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123054E0-78B5-4F1D-9405-6E4379281C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123054E0-78B5-4F1D-9405-6E4379281C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF59CCA-2DC4-465B-911C-D30B096DEBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF59CCA-2DC4-465B-911C-D30B096DEBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF59CCA-2DC4-465B-911C-D30B096DEBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF59CCA-2DC4-465B-911C-D30B096DEBCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
