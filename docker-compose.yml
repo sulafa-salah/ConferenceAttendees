@@ -52,11 +52,14 @@ services:
       context: . 
       dockerfile: nginx/Dockerfile
     ports:
-      - "8083:8083"
+      - "44391:44391"
     depends_on:
       - conferenceattendees.web
     networks:
-      - app-network
+      app-network:
+        aliases:
+          - "conferenceattendees.com"
+          - "api.conferenceattendees.com"
     restart: always
 
 networks:
